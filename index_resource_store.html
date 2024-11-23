@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Station - Learn & Earn</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#cart">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home">
+        <h1>Welcome to Smart Station</h1>
+        <p>Your one-stop solution for affordable learning resources and tutoring!</p>
+    </header>
+
+    <!-- Resources Section -->
+    <section id="resources">
+        <h2>Available Resources</h2>
+        <div class="resource">
+            <h3>Topical Questions</h3>
+            <p>Price: KES 150</p>
+            <button class="add-to-cart" data-product="Topical Questions" data-price="150">Add to Cart</button>
+        </div>
+        <div class="resource">
+            <h3>Past Papers</h3>
+            <p>Price: KES 200</p>
+            <button class="add-to-cart" data-product="Past Papers" data-price="200">Add to Cart</button>
+        </div>
+        <div class="resource">
+            <h3>Textbooks</h3>
+            <p>Price: KES 500</p>
+            <button class="add-to-cart" data-product="Textbooks" data-price="500">Add to Cart</button>
+        </div>
+        <div class="resource">
+            <h3>Revision Notes</h3>
+            <p>Price: KES 100</p>
+            <button class="add-to-cart" data-product="Revision Notes" data-price="100">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: <span id="cart-total">KES 0</span></p>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button id="checkout">Checkout</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Smart Station. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
